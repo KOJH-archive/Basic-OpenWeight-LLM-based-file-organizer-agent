@@ -1,0 +1,12 @@
+[project]
+name = "flowguard-local"
+version = "0.2.2"
+description = "Local-first approval-gated workflow helper for Windows"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+flowguard = "flowguard.app:main"
+
+[tool.setuptools.packages.find]
+include = ["flowguard*"]
